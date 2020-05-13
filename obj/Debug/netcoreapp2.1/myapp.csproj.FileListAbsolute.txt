@@ -1,0 +1,11 @@
+/myapp/bin/Debug/netcoreapp2.1/myapp.deps.json
+/myapp/bin/Debug/netcoreapp2.1/myapp.runtimeconfig.json
+/myapp/bin/Debug/netcoreapp2.1/myapp.runtimeconfig.dev.json
+/myapp/bin/Debug/netcoreapp2.1/myapp.dll
+/myapp/bin/Debug/netcoreapp2.1/myapp.pdb
+/myapp/obj/Debug/netcoreapp2.1/myapp.csprojAssemblyReference.cache
+/myapp/obj/Debug/netcoreapp2.1/myapp.csproj.CoreCompileInputs.cache
+/myapp/obj/Debug/netcoreapp2.1/myapp.AssemblyInfoInputs.cache
+/myapp/obj/Debug/netcoreapp2.1/myapp.AssemblyInfo.cs
+/myapp/obj/Debug/netcoreapp2.1/myapp.dll
+/myapp/obj/Debug/netcoreapp2.1/myapp.pdb
