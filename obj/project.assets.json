@@ -688,23 +688,19 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/kotake_shunki/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/myapp/myapp.csproj",
+      "projectUniqueName": "/Users/kotake_shunki/develop/docker-project/ddd1/myapp.csproj",
       "projectName": "myapp",
-      "projectPath": "/myapp/myapp.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/myapp/obj/",
+      "projectPath": "/Users/kotake_shunki/develop/docker-project/ddd1/myapp.csproj",
+      "packagesPath": "/Users/kotake_shunki/.nuget/packages/",
+      "outputPath": "/Users/kotake_shunki/develop/docker-project/ddd1/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/Users/kotake_shunki/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -727,16 +723,23 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
       }
     }
   }
